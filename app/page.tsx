@@ -16,9 +16,9 @@ const profile = {
 
 const experiences = [
   {
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     company: "MyAscend AI (startup)",
-    period: "July 2025 — Nov 2025",
+    period: "July 2025 — Dec 2025",
     description:
       "Built scalable authentication and onboarding with Next.js, Supabase, and Temporal — enabling passwordless login, smoother invitations, and reliable member data consistency."
   },
