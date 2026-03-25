@@ -575,7 +575,7 @@ transition-[opacity,transform,filter] duration-500 ease-[cubic-bezier(0.22,1,0.3
               Have a role, project, or idea in mind? Send a quick note with a bit of context and how I can help.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href={`mailto:${profile.email}`} className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/25 hover:-translate-y-[1px]">
+              <a href={`https://mail.google.com/mail/?view=cm&to=${profile.email}`} target="_blank" rel="noopener noreferrer" className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/25 hover:-translate-y-[1px]">
                 Email me
               </a>
               <a
